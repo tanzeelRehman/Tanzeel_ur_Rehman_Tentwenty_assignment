@@ -1,0 +1,17 @@
+
+@baseUrl = https://reqres.in
+
+
+POST https://api.paystack.co/customer HTTP/1.1
+content-type: application/json
+Authorization: Bearer sk_live_7d94c524afbbdfe26afb10e6319241b21e82fdfd
+
+{
+  "email": "zero@sum.com",
+  "first_name": "Zero",
+  "last_name": "Sum",
+  "phone": "+2348123456789"
+}
+
+
+
